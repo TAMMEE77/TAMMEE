@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="stylesheet" href="room2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Logo">รายการหอพัก</div>
+            <ul>
+                <li><a href="Webpage.html">กลับหน้าแรก</a></li>
+                <li><a href="book.html">จองห้องพัก</a></li>
+                <li><a href="apply.html">สมัครสมาชิก</a></li>
+                <li><a href="login.html">เข้าสู่ระบบ</a></li>
+                <li><a href="#">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header><br><br>
+
+    <div class="filter-container">
+        <input type="text" id="search-input" placeholder="ค้นหาชื่อห้องพัก...">
+        <select id="price-filter">
+            <option value="all">เลือกช่วงราคา</option>
+            <option value="0-3000">0 - 3000 บาท</option>
+            <option value="3001-5000">3001 - 5000 บาท</option>
+            <option value="5001-8000">5001 - 8000 บาท</option>
+            <option value="8001+">มากกว่า 8000 บาท</option>
+        </select>
+        <button id="filter-button">ค้นหา</button>
+    </div>
+
+    <div class="room-container">
+        <!-- บล็อกห้องพัก -->
+        <div class="room-block" data-price="5000" data-name="room 122">
+            <img src="https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/oceKEvbADje8AAyJYAPILwvAbXnSnDAe7bPQlg~tplv-tej9nj120t-origin.webp" alt="Room 1" class="room-image">
+            <h3>room 122</h3>
+            <p>ราคา: 5000 บาท/เดือน</p>
+            <a href="room-details1.html" class="details-button">ดูรายละเอียด</a>
+        </div>
+
+        <div class="room-block" data-price="8000" data-name="room 214">
+            <img src="https://cdn.ennxo.com/uploads/products/960/48dcb918f31f4306a82b44b57bf09d26.jpg" alt="Room 2" class="room-image">
+            <h3>room 214</h3>
+            <p>ราคา: 8000 บาท/เดือน</p>
+            <a href="room-details2.html" class="details-button">ดูรายละเอียด</a>
+        </div>
+
+        <div class="room-block" data-price="3000" data-name="room 101">
+            <img src="https://www.hongpak.in.th/media/rooms/photos/20/0801/210_6716.jpg" alt="Room 3" class="room-image">
+            <h3>room 101</h3>
+            <p>ราคา: 3000 บาท/เดือน</p>
+            <a href="room-details3.html" class="details-button">ดูรายละเอียด</a>
+        </div>
+
+        <div id="no-results-message" style="display: none; text-align: center; margin-top: 20px; color: rgb(250, 17, 17); font-size: 18px;">
+            ห้องที่คุณค้นหายังไม่มีครับ
+        </div>
+        
+    </div>
+
+    <script src="room2.js"></script>
+</body>
+</html>
