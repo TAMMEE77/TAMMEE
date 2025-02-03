@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <form id="register-form" method="POST" action="save_user_data.php">
+    <div class="container">
+      <h1>สมัครสมาชิก</h1>
+
+      <div class="form-group">
+        <label for="firstname">ชื่อ</label>
+        <span id="firstname-error" class="error-message"></span>
+        <input type="text" id="firstname" name="firstname" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lastname">นามสกุล</label>
+        <span id="lastname-error" class="error-message"></span>
+        <input type="text" id="lastname" name="lastname" required>
+      </div>
+
+      <div class="form-group">
+        <label for="birthday">วัน/เดือน/ปีเกิด</label>
+        <span id="birthday-error" class="error-message"></span>
+        <input type="date" id="birthday" name="birthday" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">เบอร์โทรศัพท์</label>
+        <span id="phone-error" class="error-message"></span>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <span id="email-error" class="error-message"></span>
+        <input type="text" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="psw">Password</label>
+        <span id="password-error" class="error-message"></span>
+        <input type="password" id="psw" name="password" required>
+      </div>
+
+      <div class="form-group">
+        <label for="psw-repeat">Repeat Password</label>
+        <span id="repeat-password-error" class="error-message"></span>
+        <input type="password" id="psw-repeat" required>
+      </div>
+
+      <div class="form-group">
+        <button type="button" class="registerbtn">สมัคร</button>
+        <button type="button" class="nextbtn" style="display: none;" onclick="location.href='userpage.html'">ต่อไป</button>
+        <button type="reset" class="resetbtn">ล้างข้อมูล</button>
+      </div>
+    
+    
+    </div>
+
+    <div class="signin">
+      <p>มีบัญชีอยู่แล้วใช่ไหม? <a href="login.html">เข้าสู่ระบบ</a></p>
+    </div>
+  </form>
+
+  <script src="register.js"></script>
+</body>
+</html>
+
+
+
+

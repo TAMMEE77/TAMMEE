@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans Thai", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    min-height: 100vh; /* ใช้ความสูงเต็มหน้าจอ */
+    background-color: #f9f9f9;
+}
+
+.container {
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: none; /* จำกัดความกว้างของบล็อก */
+    width: 800px; /* ปรับขนาดให้เหมาะกับหน้าจอเล็ก */
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.registerbtn, .resetbtn {
+    width: 100%; /* ขยายปุ่มให้เต็มความกว้าง */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.registerbtn {
+    background-color: #05a86c;
+    color: white;
+}
+
+.registerbtn:hover {
+    opacity: 0.9;
+}
+
+.resetbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+.resetbtn:hover {
+    background-color: #999;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: rgb(25, 110, 196);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nextbtn {
+    font-size: large;
+    background-color: #007bff;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    display: none; /* ซ่อนปุ่มเริ่มต้น */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nextbtn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+

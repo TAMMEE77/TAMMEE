@@ -1,0 +1,20 @@
+[
+    {
+        "userid": 1,
+        "firstname": "ต๋อง",
+        "lastname": "ใจเย็น",
+        "birthday": "2001-07-10",
+        "phone": "0922186518",
+        "email": "npc1234@gmail.com",
+        "password": "$2y$10$guupan.4gdRUi2X\/lzKaOOJqsaAhCV16EkvgkqI8myTWTyE0DeW4e"
+    },
+    {
+        "userid": 2,
+        "firstname": "วิเชียรมาศ",
+        "lastname": "เหมียวๆ",
+        "birthday": "2002-11-11",
+        "phone": "0878894561",
+        "email": "catexpo@gmail.com",
+        "password": "$2y$10$qD3PNzAJLGZLtm5SsaWzFu0.uaVeaTCMWp3cohPv56Thse8V.b5Cq"
+    }
+]

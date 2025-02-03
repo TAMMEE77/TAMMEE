@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "room 122",
+        "price": 5000,
+        "status": "ว่าง",
+        "image": "https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/oceKEvbADje8AAyJYAPILwvAbXnSnDAe7bPQlg~tplv-tej9nj120t-origin.webp",
+        "description": "ห้องพักขนาดใหญ่พร้อมเครื่องปรับอากาศและวิวสวนสวย" 
+    },
+    {
+        "id": 2,
+        "name": "room 214",
+        "price": 8000,
+        "status": "มีเจ้าของ",
+        "image": "https://cdn.ennxo.com/uploads/products/960/48dcb918f31f4306a82b44b57bf09d26.jpg",
+        "description": "ห้องพักพร้อมเฟอร์นิเจอร์ครบครันและใกล้ตลาด" 
+    },
+    {
+        "id": 3,
+        "name": "room 101",
+        "price": 3000,
+        "status": "ติดจอง",
+        "image": "https://www.hongpak.in.th/media/rooms/photos/20/0801/210_6716.jpg",
+        "description": "ห้องพักพร้อมเฟอร์นิเจอร์ครบครันและใกล้ตลาด" 
+    },
+    {
+        "id": 4,
+        "name": "room 202",
+        "price": 4500,
+        "status": "กำลังจะออก",
+        "image": "https://www.hongpak.in.th/media/rooms/photos/20/0801/210_6716.jpg",
+        "description": "ห้องพักพร้อมเฟอร์นิเจอร์ครบครันและใกล้ตลาด" 
+    },
+    {
+        "id": 5,
+        "name": "room 218",
+        "price": 7500,
+        "status": "ว่าง",
+        "image": "https://cdn.ennxo.com/uploads/products/960/48dcb918f31f4306a82b44b57bf09d26.jpg",
+        "description": "ห้องพักพร้อมเฟอร์นิเจอร์ครบครันและใกล้ตลาด" 
+    },
+    {
+        "id": 6,
+        "name": "room 188",
+        "price": 2500,
+        "status": "ติดจอง",
+        "image": "https://www.hongpak.in.th/media/rooms/photos/20/0801/210_6716.jpg",
+        "description": "ห้องพักพร้อมเฟอร์นิเจอร์ครบครันและใกล้ตลาด" 
+    }
+
+]

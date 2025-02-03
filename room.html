@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="stylesheet" href="room.css">
+    <script defer src="room.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Logo">รายการหอพัก</div>
+            <ul>
+                <li><a href="Webpage.html">กลับหน้าแรก</a></li>
+                <li><a href="book.html">จองห้องพัก</a></li>
+                <li><a href="register.html">สมัครสมาชิก</a></li>
+                <li><a href="login.html">เข้าสู่ระบบ</a></li>
+                <li><a href="#">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header><br><br>
+
+    <div class="filter-container">
+        <input type="text" id="search-input" placeholder="ค้นหาชื่อห้องพัก...">
+        
+        <select id="price-filter">
+            <option value="all">เลือกช่วงราคา</option>
+            <option value="0-3000">0 - 3000 บาท</option>
+            <option value="3001-5000">3001 - 5000 บาท</option>
+            <option value="5001-8000">5001 - 8000 บาท</option>
+            <option value="8001+">มากกว่า 8000 บาท</option>
+        </select>
+    
+        <select id="status-filter">
+            <option value="all">เลือกสถานะห้อง</option>
+            <option value="ว่าง">ว่าง</option>
+            <option value="ติดจอง">ติดจอง</option>
+            <option value="กำลังจะออก">กำลังจะออก</option>
+            <option value="มีเจ้าของ">มีเจ้าของ</option>
+        </select>
+    
+        <button id="filter-button">ค้นหา</button>
+    </div>
+
+    <div class="room-container" id="room-container">
+        <!-- บล็อกห้องพักจะดึงข้อมูลโดย JavaScript -->
+    </div>
+
+    <div id="no-results-message" style="display: none; text-align: center; margin-top: 20px; color: rgb(250, 17, 17); font-size: 18px;">
+        ห้องที่คุณค้นหายังไม่มีครับ
+    </div>
+
+</body>
+</html>
+
+
